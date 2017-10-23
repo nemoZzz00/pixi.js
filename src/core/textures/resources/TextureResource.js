@@ -1,5 +1,3 @@
-import Runner from 'mini-runner';
-
 /**
  * The controller for BaseTexture, manages validation and upload depends on its type.
  * onTextureUpload is required.

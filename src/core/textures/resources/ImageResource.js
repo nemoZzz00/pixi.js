@@ -64,7 +64,7 @@ export default class ImageResource extends ImageLikeResource
 
                 if (this.baseTexture)
                 {
-                    this.baseTexture.setRealSize(source.width, source.height);
+                    this._validate();
                 }
 
                 if (this.createBitmap)
@@ -173,7 +173,7 @@ export default class ImageResource extends ImageLikeResource
         {
             image.crossOrigin = determineCrossOrigin(url);
         }
-        else if(crossorigin)
+        else if (crossorigin)
         {
             image.crossOrigin = 'anonymous';
         }
