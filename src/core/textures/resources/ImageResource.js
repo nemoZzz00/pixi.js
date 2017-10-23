@@ -119,7 +119,7 @@ export default class ImageResource extends ImageLikeResource
      */
     onProcess()
     {
-        if (window.createImageBitmap)
+        if (!window.createImageBitmap)
         {
             return Promise.resolve(this);
         }
