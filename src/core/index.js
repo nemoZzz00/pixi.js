@@ -41,6 +41,7 @@ export { default as BaseTexture } from './textures/BaseTexture';
 
 // image resource
 export { default as ImageResource } from './textures/resources/ImageResource';
+export { default as ImageLikeResource } from './textures/resources/ImageLikeResource';
 
 export { default as ArrayTexture } from './textures/ArrayTexture';
 export { default as Texture } from './textures/Texture';
