@@ -26,6 +26,7 @@ export default class VideoResource extends ImageLikeResource
         this._onCanPlay = this._onCanPlay.bind(this);
 
         this._load = null;
+        this.loaded = false;
 
         if (loadRightNow)
         {
