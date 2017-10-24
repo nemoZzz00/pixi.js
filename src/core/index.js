@@ -1,8 +1,6 @@
 /**
  * @namespace PIXI
  */
-import ImageResource from './textures/resources/ImageResource';
-
 export * from './const';
 export * from './math';
 
@@ -37,14 +35,11 @@ export { default as Spritesheet } from './textures/Spritesheet';
 export { default as FrameBuffer } from './textures/FrameBuffer';
 export { default as CubeTexture } from './textures/CubeTexture';
 export { default as BaseTexture } from './textures/BaseTexture';
-
-
-// image resource
 export { default as ImageResource } from './textures/resources/ImageResource';
 export { default as ImageLikeResource } from './textures/resources/ImageLikeResource';
-
 export { default as ArrayTexture } from './textures/ArrayTexture';
 export { default as Texture } from './textures/Texture';
+export { default as TextureMatrix } from './textures/TextureMatrix';
 export { default as RenderTexture } from './textures/RenderTexture';
 export { default as BaseRenderTexture } from './textures/BaseRenderTexture';
 export { default as VideoBaseTexture } from './textures/VideoBaseTexture';
